@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<section class="hero">
+    <h1>Happy Valentine's Day ❤️</h1>
+    <h2>My Love</h2>
+    <button onclick="startMemories()">Remember Our Past ❤️</button>
+</section>
+
+<section class="gallery" id="gallery" style="display:none;">
+    <h2>Our Memories 📸</h2>
+
+    <div class="photos" id="photoContainer"></div>
+
+    <div class="navBtns">
+        <button onclick="prevBatch()">⬅ Previous</button>
+        <button onclick="nextBatch()">Next ➡</button>
+    </div>
+</section>
+
+<section class="letter" id="letter">
+    <h2>💖 A Message For You 💖</h2>
+    <p id="loveText"></p>
+</section>
+
+<audio id="music" loop>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
